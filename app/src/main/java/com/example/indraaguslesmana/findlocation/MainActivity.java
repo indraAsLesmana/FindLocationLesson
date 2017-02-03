@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener{
 
-     //for tracking log information
+     //for tracking log information.
     private final String TAG = MainActivity.class.getSimpleName();
     private TextView txtOutput;
     private GoogleApiClient mGoogleApiClient;
